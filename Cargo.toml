@@ -10,8 +10,16 @@ panic-halt = "0.2.0"
 nb = "1.1.0"
 rtt-target = "0.4.0"
 nrf51-hal = "0.16.0"
-ssd1309 = "0.3.0"
 embedded-graphics = "0.8.0"
+display-interface-i2c = "0.4.0"
+impls = "1.0.3"
+static_assertions = "1.1.0"
+ssd1306 = "0.8.0"
+bme280 = "0.3.0"
+embedded-hal = "0.2.7"
+heapless = "0.7.16"
+format_no_std = "1.0.0"
+panic-rtt-target = {version = "0.1.2", features = ["cortex-m"]}
 
 
 [dependencies.cortex-m]
